@@ -5,20 +5,51 @@
   <Author>RockingDice</Author>
   <Version>1.0.6</Version>
   <Description>[h1]RockingDice's Stationpedia Craftable Products[/h1]
+[b]See what each material can be used to manufacture.[/b]
+
+This mod adds a Craftable section after the original Used In section on Stationpedia material pages. It reads every manufacturing recipe currently loaded by the game.
+
+[h2]Features[/h2]
+[list]
+[*]Lists every product that can be manufactured from the current material.
+[*]Shows the product icon, machine, tier, energy, conditions, and complete material requirements.
+[*]Sorts simpler recipes and shorter processing chains first.
+[*]Opens the product's Stationpedia page when its icon is selected.
+[*]Reuses the original scrolling area and material links without changing recipes, items, or save data.
+[/list]
+
+[h2]Requirements[/h2]
+[list]
+[*]BepInEx 5
+[*]StationeersLaunchPad
+[/list]
+
+Installation guide: https://github.com/StationeersLaunchPad/StationeersLaunchPad
+
+[h2]Compatibility[/h2]
+This release was built and verified against Stationeers 0.2.6403.27689, BepInEx 5.4.23.5, and StationeersLaunchPad 0.5.0.
+
+[h2]Source Code[/h2]
+https://github.com/rockingdice/Stationeers-Craftable-Products
+
+[h2]AI Disclosure[/h2]
+The code, text, and Workshop artwork were created with generative AI assistance under the author's direction and tested in game by the author.
+
+[h1]中文说明[/h1]
 [b]在百科材料页反查“这些材料可以制造什么”。[/b]
 
-本 Mod 在原版“使用于”之后增加“可制造 / Craftable”分组，直接读取游戏当前加载的制造配方。
+本 Mod 在原版“使用于”之后增加“可制造”分组，并直接读取游戏当前加载的全部制造配方。
 
-[h2]主要功能 / Features[/h2]
+[h2]主要功能[/h2]
 [list]
-[*]显示可由当前材料制造的全部产物，不维护硬编码配方表。
+[*]显示可由当前材料制造的全部产物。
 [*]显示产物图标、制造机器、等级、能量、条件和完整材料需求。
 [*]优先排列材料更少、加工链更短的简单配方。
 [*]点击产物图标可直接打开对应百科页。
 [*]复用原版滚动区域与材料链接，不修改配方、物品或存档。
 [/list]
 
-[h2]Requirements / 运行要求[/h2]
+[h2]运行要求[/h2]
 [list]
 [*]BepInEx 5
 [*]StationeersLaunchPad
@@ -26,13 +57,13 @@
 
 安装说明：https://github.com/StationeersLaunchPad/StationeersLaunchPad
 
-[h2]Compatibility / 兼容性[/h2]
+[h2]兼容性[/h2]
 本版本针对 Stationeers 0.2.6403.27689、BepInEx 5.4.23.5 和 StationeersLaunchPad 0.5.0 构建并验证。
 
-[h2]Source Code / 源码[/h2]
+[h2]源码[/h2]
 https://github.com/rockingdice/Stationeers-Craftable-Products
 
-[h2]AI disclosure / AI 说明[/h2]
+[h2]AI 说明[/h2]
 本 Mod 的代码、文本和创意工坊封面在作者指导下使用了生成式 AI 辅助，并经过作者实机测试。</Description>
   <Tags>
     <Tag>Quality of Life</Tag>
